@@ -1,3 +1,6 @@
 $( "#menu" ).load( "./componentes/menu.html");
-$( "#conteudo" ).load( "./componentes/conteudo.html");
 $( "#rodape" ).load( "./componentes/rodape.html");
+function menu(link) {
+    $( "#conteudo" ).load(`./pages/${link}.html`);
+    
+}
